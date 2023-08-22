@@ -6,9 +6,15 @@ GET http://localhost:3000/routes/1
 
 ###
 POST http://localhost:3000/routes
-Content-Type: applicatiion/json
+Content-Type: application/json
+
 {
-  "name": "route test 1",
+  "name": "route test 2",
   "source_id": "1",
-  "destination_id": "2",
+  "destination_id": "2"
 }
+
+### Coisas do mapa
+
+### Pegar o place_id
+GET http://localhost:3000/places?text=av governador valadares, betim, 1030
