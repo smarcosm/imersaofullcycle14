@@ -17,4 +17,8 @@ Content-Type: application/json
 ### Coisas do mapa
 
 ### Pegar o place_id
-GET http://localhost:3000/places?text=av governador valadares, betim, 1030
+GET http://localhost:3000/places?text=QR 310, conjunto 13, 
+
+### Pegar direções entre dois pontos
+
+GET http://localhost:3000/directions?originId=xxx&destinationId=yyyyy
