@@ -2,7 +2,7 @@
 GET http://localhost:3000/routes
 
 ###
-DELETE  http://localhost:3000/routes/64e84f8663409c3c17208b49
+GET   http://localhost:3000/routes/64e84f8663409c3c17208b49
 
 ###
 POST http://localhost:3000/routes
@@ -17,7 +17,7 @@ Content-Type: application/json
 ### Coisas do mapa
 
 ### Pegar o place_id
-GET http://localhost:3000/places?text=quadra310, conjunto 8, samambaia
+GET http://localhost:3000/places?text=betim, mg
 
 
 ### Pegar direções entre dois pontos
