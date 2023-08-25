@@ -20,16 +20,15 @@
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
 		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
-			"plugins": "git git-flow F-sy-H zsh-autosuggestions zsh-completions",
-			"omzPlugins": "https://github.com/z-shell/F-Sy-H https://github.com/zsh-autosuggestions http://github.com/zsh-completions"
+			"plugins": "git git-flow F-Sy-H zsh-autosuggestions zsh-completions",
+			"omzPlugins": "https://github.com/z-shell/F-Sy-H https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-completions"
 		},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"prisma.prisma",
-				"humao.rest-client"
+				"prisma.prisma"
 			]
 		}
 	}

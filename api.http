@@ -2,23 +2,24 @@
 GET http://localhost:3000/routes
 
 ###
-GET http://localhost:3000/routes/1
+DELETE  http://localhost:3000/routes/64e84f8663409c3c17208b49
 
 ###
 POST http://localhost:3000/routes
 Content-Type: application/json
 
 {
-  "name": "route test 2",
-  "source_id": "1",
-  "destination_id": "2"
+    "name": "route samambaia",
+    "source_id": "ChIJrW982kgtWpMRZLYv2Tgx67w",
+    "destination_id": "ChIJ1b4gOE8tWpMRArGuohgkBsU"
 }
 
 ### Coisas do mapa
 
 ### Pegar o place_id
-GET http://localhost:3000/places?text=QR 310, conjunto 13, 
+GET http://localhost:3000/places?text=quadra310, conjunto 8, samambaia
+
 
 ### Pegar direções entre dois pontos
 
-GET http://localhost:3000/directions?originId=xxx&destinationId=yyyyy
+GET http://localhost:3000/directions?originId=ChIJm5DuIuMtWpMRl2N81a3__WY&destinationId=ChIJI-ijvEYtWpMRrICAZKkt0GI
