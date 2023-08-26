@@ -9,17 +9,17 @@ POST http://localhost:3000/routes
 Content-Type: application/json
 
 {
-    "name": "route samambaia",
-    "source_id": "ChIJrW982kgtWpMRZLYv2Tgx67w",
-    "destination_id": "ChIJ1b4gOE8tWpMRArGuohgkBsU"
+    "name": "route riacho fundo",
+    "source_id": "ChIJgVNdAMstWpMRFnbbHOKPKIY",
+    "destination_id": "ChIJY_lQcsstWpMRYmeGc1nnMmQ"
 }
 
 ### Coisas do mapa
 
 ### Pegar o place_id
-GET http://localhost:3000/places?text=betim, mg
+GET http://localhost:3000/places?text=qs06 conjunto 1, riacho fundo 1, df
 
 
 ### Pegar direções entre dois pontos
 
-GET http://localhost:3000/directions?originId=ChIJm5DuIuMtWpMRl2N81a3__WY&destinationId=ChIJI-ijvEYtWpMRrICAZKkt0GI
+GET http://localhost:3000/directions?originId=ChIJgVNdAMstWpMRFnbbHOKPKIY&destinationId=ChIJY_lQcsstWpMRYmeGc1nnMmQ
